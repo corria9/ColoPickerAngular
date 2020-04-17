@@ -1,0 +1,38 @@
+html , body{
+			height: 97%;
+		}
+		#vue{
+				position:relative;
+				top:5%;
+				padding-top:50px;
+				height:30%;
+				width:96%;
+				margin-left: 2%;
+				text-align:center;
+				color:#efefef;
+				border-radius: 5px;
+				font-size:300%;
+				margin-bottom:5%;
+				font-family: 'Poiret One', bold, sans-serif;
+				cursor: copy;
+				}
+		 
+		#red{
+				border-color:red;
+				}
+		#green{
+				border-color:green;   
+				}
+		#blue{
+				border-color:blue;	
+				}
+		#red, #blue, #green{
+		   		position: relative;
+				height:20px;
+				width:94%;
+				margin-left: 3%;
+				border-radius:200px;
+				border-style: solid;
+				margin-top:40px;
+				cursor: pointer; 
+				}

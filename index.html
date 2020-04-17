@@ -1,0 +1,27 @@
+<html>
+
+<head>
+
+
+	<meta charset="utf-8">
+	<title>Color Picker Hex</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<link rel="icon" type="image/x-icon" href="https://image.flaticon.com/icons/svg/426/426833.svg">
+
+</head>
+
+<body ng-app="myApp" ng-controller="personCtrl"  >
+	<div id="vue" style="background-color: {{myCol=result()}}" >
+			{{myCol}}
+	</div>
+	<div>
+		<input type="range"	id="red" 	min="0" 	max="255"	ng-model="myRed">
+		<input type="range" id="green" 	min="0" 	max="255" 	ng-model="myGreen" > 
+		<input type="range" id="blue" 	min="0" 	max="255" 	ng-model="myBlue" >
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
+
